@@ -29,12 +29,14 @@ class CategoryItem extends StatelessWidget {
           borderRadius: BorderRadius.circular(15)
           
         ),
-        elevation: 7,
+        elevation: 10,
           child: Container(
           padding: const EdgeInsets.all(15),
-          child: Text(
-            title,
-            style: Theme.of(context).textTheme.title,
+          child: Center(
+            child: Text(
+              title,
+              style: Theme.of(context).textTheme.title,
+            ),
           ),
           decoration: BoxDecoration(
               gradient: LinearGradient(
@@ -45,7 +47,7 @@ class CategoryItem extends StatelessWidget {
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,
               ),
-              borderRadius: BorderRadius.circular(15)),
+              borderRadius: BorderRadius.circular(20)),
         ),
       ),
     );

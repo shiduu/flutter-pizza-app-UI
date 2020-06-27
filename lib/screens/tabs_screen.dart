@@ -15,7 +15,7 @@ class _TabsScreenState extends State<TabsScreen> {
   final List<Map<String, Object>> _pages = [
      { 
        'page': CategoriesScreens(),
-       'title': 'SHIDU SHOP'
+       'title': 'Pizza Zone'
       },
     {
       'page': FavouritesScreen(),
