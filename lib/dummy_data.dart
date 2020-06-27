@@ -5,27 +5,27 @@ import './models/meals.dart';
 const Dummy_Categories = const [
   Category(
     id: 'c1',
-    title: 'italian',
+    title: 'italian pizza',
     color: Colors.purple,
   ),
   Category(
     id: 'c2',
-    title: 'ugandan',
+    title: 'ugandan pizza',
     color: Colors.green,
   ),
   Category(
     id: 'c3',
-    title: 'somalian',
+    title: 'somalian pizza',
     color: Colors.blue,
   ),
   Category(
     id: 'c4',
-    title: 'kenyan',
+    title: 'kenyan pizza',
     color: Colors.pink,
   ),
   Category(
     id: 'c5',
-    title: 'spanish',
+    title: 'spanish pizza',
     color: Colors.blue,
   ),
   Category(
@@ -40,17 +40,17 @@ const Dummy_Categories = const [
   ),
   Category(
     id: 'c8',
-    title: 'somalian',
+    title: 'somalian pizza',
     color: Colors.blue,
   ),
   Category(
     id: 'c9',
-    title: 'kenyan',
+    title: 'kenyan pizza',
     color: Colors.pink,
   ),
   Category(
     id: 'c10',
-    title: 'spanish',
+    title: 'spanish pizza',
     color: Colors.blue,
   ),
 ];

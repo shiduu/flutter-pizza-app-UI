@@ -23,7 +23,9 @@ class CategoriesMealsScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text(categoryTitle)
       ),
-      body: ListView.builder(itemBuilder: (ctx, index){
+      body: ListView.builder(
+        shrinkWrap: true,
+        itemBuilder: (ctx, index){
          return MealItem(
            id: categoriesMeal[index].id,
            title: categoriesMeal[index].title,
