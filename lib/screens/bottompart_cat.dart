@@ -6,7 +6,7 @@ class BottomPart extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.only(top: 230) ,
+      padding: EdgeInsets.only(top: 250) ,
       
       //padding: EdgeInsets.all(15),
       child: GridView(

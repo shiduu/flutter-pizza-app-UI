@@ -46,6 +46,13 @@ class _TabsScreenState extends State<TabsScreen> {
           
           title: Text(_pages[_selectedPageIndex]['title']),
 
+          actions: <Widget>[
+            IconButton(icon: Icon(
+              Icons.shopping_cart,
+              color: Colors.white
+            ), onPressed: null)
+          ],
+
           // bottom: TabBar(tabs: <Widget>[
             
           //   Tab(

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '../screens/categories_screen.dart';
 
 import '../screens/categories_meal_screen.dart';
 
@@ -26,10 +25,10 @@ class CategoryItem extends StatelessWidget {
 
       child: Card(
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(15)
+          borderRadius: BorderRadius.circular(20)
           
         ),
-        elevation: 10,
+        elevation: 9,
           child: Container(
           padding: const EdgeInsets.all(15),
           child: Center(

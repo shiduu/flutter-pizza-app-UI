@@ -12,7 +12,7 @@ class CategoriesScreens extends StatelessWidget {
        body: Stack(
          children: <Widget>[
            TopPart(), 
-          BottomPart()
+           BottomPart()
          ],
        )
        
